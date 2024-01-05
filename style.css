@@ -1,1 +1,49 @@
+body {
+    background-color: #D2DEDC;
+}
+h1 {
+    color:#D133FF;
+    font-size: 25px;
+    font-family: 'Segoe UI';
+    
+}
+h2{
+    color: #D133FF;
+    font-size: 25px;
+    font-family: 'Segoe UI';
+    
 
+}
+p {
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(76, 108, 153);
+}
+img{
+    max-width: 25%;
+    max-height: 25%;
+}
+ol li {
+    font-size: 30px;
+    color: blueviolet;
+}
+ul li {
+    color: green;
+    font-weight: bold;
+    background-color: #dcf539;
+    text-align: center;
+}
+
+.enviar{
+    border-radius: 5px;
+    background-color: #baf3c2;
+}
+
+
+.etiqueta{
+    background-color: #E7998C;
+}
+input{
+    background-color: #f4c2ba;
+}
