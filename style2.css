@@ -1,0 +1,36 @@
+body {
+    background-color: #D2DEDC;
+}
+h1 {
+    color:#040304;
+    font-size: 25px;
+    font-family: 'Segoe UI';
+    
+}
+h2{
+    color: #090909;
+    font-size: 25px;
+    font-family: 'Segoe UI';
+    
+
+}
+p {
+    font-size: Arial;
+    
+    font-size: 20px;
+    color: #090909;
+}
+.boton{
+    border-radius: 5px;
+    border-color: #0bf50b;
+    background-color: #27d027;
+    color:#cce9d0;
+    width: 120px; 
+height: 30px; 
+    
+}
+
+
+input{
+    background-color: #e5f1e9;
+}
