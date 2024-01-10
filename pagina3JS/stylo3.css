@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap');
 :root {
     --white: #FFFFFF;
     --black: #000000;
@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: 'Nunito';
+    font-family: 'Nunito', sans-serif;
     margin: 0;
 }
 .main{ 
@@ -31,16 +31,17 @@ body {
     background-color: var(--white);
 }
 
-.title{
+.title {
     color: var(--black);
     text-align: center;
     font-size: var(--lg);
 }
 
-.subtitle{
+.subtitle {
     color: var(--black);
     text-align: center;
-    font-size: var(--lg);
+    font-size: var(--md);
+    margin: 5px 0 5px 0;
 }
 .primary-button {
     background-color: var(--purple);
@@ -90,4 +91,17 @@ margin-right: 28px;
     font-size: var(--sm);
     margin: 0;
 
+}
+
+/* aparti de aqui se aplica responsi*/
+@media(max-width:720px){
+    .icons-container{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 50px 10px 50px 10px;
+    }
+    .subtitle{
+        
+        display: none; /* esta linea  hace que se esconda los parafos en esta clase subtitle */
+    
+    }
 }
