@@ -1,4 +1,4 @@
-# prueba
+# inf122
 Nombre; Ivone
 Apellido: Quispe Choque
 Correo: quispeivone918@gmail.com
