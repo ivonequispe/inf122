@@ -81,3 +81,85 @@ p{
     justify-items: center;
     
 }
+
+
+.more-info{
+    display: grid;
+    background-color:var(--light-purple);
+    width: 100%;
+}
+.card-container{ 
+    display:flexbox;
+    align-items: center;
+    margin: 16px 0 16px 0;
+    
+}
+.icons-container{ 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 50px 260px 50px 260px;
+    justify-content: center;
+}
+.card-icon{
+width: 80px;
+height: 80px;
+border-radius: 50%;
+background-color: var(--white);
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 28px;
+}
+
+.card-icon figure img {
+    width: 50px;
+    height: 50px;
+}
+
+.icon-text h2 {
+    font-size: var(--sm);
+    margin: 0;
+
+}
+
+/* aparti de aqui se aplica responsi*/
+@media(max-width:720px){
+    .icons-container{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 50px 10px 50px 10px;
+    }
+    .subtitle{
+        
+        display: none; /* esta linea  hace que se esconda los parafos en esta clase subtitle */
+    
+    }
+    
+#boton-hamburguesa {
+    background-color:var(--gray);
+    color: #fff;
+    display: flex;
+   
+    
+    
+  }
+  ul {
+    display: none;
+  }
+
+}
+
+#boton-hamburguesa {
+    background-color:var(--gray);
+    color: #fff;
+    font-size: 24px;
+    font-family: sans-serif;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+/* <script src="htts: //kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonimous" ></script>
+
+    <button class="toggle" >
+     <i class="fas fa-bars"></i>
+     </button>*/
