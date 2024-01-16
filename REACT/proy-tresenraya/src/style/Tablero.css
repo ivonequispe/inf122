@@ -1,0 +1,19 @@
+.tablero {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+}
+
+.juego {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 45px;
+    height: 40px;
+    font-size: 35px;
+    text-align: center;
+}
