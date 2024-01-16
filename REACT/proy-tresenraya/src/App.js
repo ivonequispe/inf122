@@ -8,9 +8,6 @@ import Juego from './componentes/Juego';
 
 function App() {
 
-  /* <Tablero />
-  <TableroB />
-  <TableroC /> */
 
   return (
     <div className="App">
