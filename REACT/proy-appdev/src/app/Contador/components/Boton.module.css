@@ -1,0 +1,8 @@
+/*solo estilos de clases nada de etiquetas */
+.boton-click {
+    width: 150px;
+    background-color: rgb(27, 176, 126);
+}
+.boton-reiniciar{
+    background-color: rgb(140, 233, 158);
+  }

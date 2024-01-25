@@ -1,0 +1,12 @@
+.juego-tablero {
+    display: flex;
+    flex-direction: column;
+}
+
+.juego {
+    display: flex;
+}
+.historial{
+    width: 200px;
+    background-color: bisque;
+}

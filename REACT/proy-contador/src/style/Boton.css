@@ -1,6 +1,6 @@
 :root {
     --orange: #FF872C;
-    --white: #DCDCE5;
+    --white: #babaf3;
     --sm: 24px;
 }
 
@@ -18,8 +18,11 @@ button {
 
 .boton-click {
     width: 150px;
+    background-color: rgb(27, 176, 126);
 }
-
+.boton-reiniciar{
+    background-color: rgb(140, 233, 158);
+  }
 button:hover {
     background-color: var(--white);
     color: var(--orange);
